@@ -1,0 +1,15 @@
+{
+  "name": "robotsrcjs",
+  "version": "1.0.0",
+  "description": "Service side software to control a robot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "C4pt41nC0d3",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4",
+    "socket.io": "^1.4.5"
+  }
+}
