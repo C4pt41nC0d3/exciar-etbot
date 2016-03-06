@@ -11,7 +11,11 @@ var proc;
 app.use("/", express.static(path.join(__dirname, "stream")));
 
 app.get("/", function(req, res){
-	res.sendFile(__dirname+"/index.html");
+	res.sendFile(__dirname+"/dash-board.html");
+});
+
+app.get("/video", function(req, res){
+	res.sendFile(__dirname+"/video-stream.html");
 });
 
 var sockets;
